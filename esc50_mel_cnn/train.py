@@ -5,7 +5,7 @@ import numpy as np
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from tqdm import tqdm
+from tqdm import tqdm  # TODO fix (maybe use tqdm.auto?)
 from torch.utils.data import DataLoader
 
 from esc50_mel_cnn.audio_tools import compute_log_mel_spect, random_augment
