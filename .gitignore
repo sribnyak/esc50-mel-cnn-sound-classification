@@ -145,5 +145,6 @@ cython_debug/
 .pypirc
 
 # Training data & model weights
-/esc50_mel_cnn/data/
-/esc50_mel_cnn/saved_models/
+/datasets/
+/checkpoints/
+/logs/
